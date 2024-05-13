@@ -1,11 +1,11 @@
 import './App.css';
-import TelaInicialForm from './components/TelaInicialForm';
+import Card from './components/Card';
 
 function App() {
   return (
     <>
       <div className='container'>
-        <TelaInicialForm />
+        <Card />
       </div>
     </>
   );

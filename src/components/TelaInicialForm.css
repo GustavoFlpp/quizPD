@@ -7,3 +7,7 @@
 #welcome p {
   margin-bottom: 1rem;
 }
+
+#welcome img {
+  max-width: 150px;
+}
