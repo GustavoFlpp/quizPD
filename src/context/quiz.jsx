@@ -3,5 +3,6 @@ import { createContext } from 'react';
 export const QuizContext = createContext();
 
 export const QuizProvider = ({ children }) => {
-  return <QuizContext.Provider>{children} </QuizContext.Provider>;
+  const value = { name: 'Quiz' };
+  return <QuizContext.Provider value={value}>{children} </QuizContext.Provider>;
 };
